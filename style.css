@@ -1,0 +1,197 @@
+
+@media (min-width: 1201px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #F1E5D1;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  
+  #logo-blok {
+    display: flex;
+    flex-direction: row;
+    max-height: 300px;
+  }
+  #logo-img{
+    border: 50px solid #F1E5D1;
+    width: 200px;
+    height: 200px;
+  }
+  h1 {
+    margin: auto;
+    font-size: 60px;
+    text-align: center;
+    color: #DBB5B5;
+  }
+
+  h2 {
+    color: #C39898;
+  }
+
+  .main {
+    flex: 1;
+  }
+
+  .tile-image {
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    border: solid #F1E5D1;
+    border-width: 0 30px 0 0 ;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+
+  p {
+    color: #987070;
+  }
+  
+  footer {
+    text-align: right;
+    color: #987070;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #F1E5D1;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  
+  #logo-blok {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #logo-img{
+    border: 40px solid #F1E5D1;
+    width: 150px;
+    height: 150px;
+  }
+  h1 {
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    color: #DBB5B5;
+  }
+
+  h2 {
+    color: #C39898;
+  }
+
+  p {
+    text-align: justify;
+    color: #987070;
+  }
+  
+
+
+  .main {
+    flex: 1;
+  }
+  
+  .card {
+    width: 45%;
+    border: solid #F1E5D1;
+    border-width: 50px 0px 0px 0px;
+  }
+
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .tile-image {
+    width: 100%;
+    float: left;
+    border: solid #F1E5D1;
+    border-width: 0 30px 0 0 ;
+  }
+
+  footer {
+    text-align: right;
+    color: #987070;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #F1E5D1;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }  
+
+  #logo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50px solid #F1E5D1;
+    width: 200px;
+    height: 200px;
+  }  
+
+  h1 {
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    color: #DBB5B5;
+  }
+
+  h2 {
+    color: #C39898;
+  }
+
+  .main {
+    flex: 1;
+  }
+  
+  .card {
+    width: 100%;
+    margin: auto;
+    border: solid #F1E5D1;
+    border-width: 50px 0px 0px 0px;
+  }
+
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .tile-image {
+    width: 100%;
+  }
+
+  p {
+    text-align: justify;
+    color: #987070;
+  }
+  
+  footer {
+    text-align: right;
+    color: #987070;
+  }  
+
+}
+
+
